@@ -48,7 +48,7 @@ function App() {
     fetchUserDetails();
     // Fetch user cart product count
     fetchUserAddToCart();
-  }, []);
+  }, [fetchUserDetails]);
 
   return (
     <>
