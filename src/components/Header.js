@@ -24,6 +24,10 @@ const Header = () => {
   const searchQuery = URLSearch.getAll("q");
   const [search, setSearch] = useState(searchQuery);
 
+  console.log("User ID:", user?._id);
+  console.log("Is Login:", isLogin);
+  console.log("Cart Product Count:", context?.cartProductCount);
+
   const handleLogout = async () => {
     try {
       const response = await axios({
