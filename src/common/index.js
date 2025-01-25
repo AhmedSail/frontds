@@ -1,4 +1,4 @@
-const backendDomin = "https://backds.netlify.app";
+const backendDomin = "https://backds.onrender.com";
 
 const SummaryApi = {
   signUP: {
